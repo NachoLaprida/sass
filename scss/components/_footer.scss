@@ -1,0 +1,36 @@
+footer{
+    background-color: $bg-header;
+    .container-fluid{
+        .row{
+            .col-4{
+                .link-arriba{
+                    background-color: $color-letra;
+                    width: 90%;
+                    text-align: center;
+                    font-weight: bold;
+                    border-radius: 20px;
+
+                    a{
+                        color: $footer-color;
+                        text-decoration: none;
+                    }
+                }  
+            }
+            .social-network{
+                color: $footer-color;
+                font-size: 20px;
+                text-align: center;
+
+            }
+            .developer{
+
+                color: $footer-color;
+                a{
+                    text-decoration: none;
+                    color: $color-letra;
+                }
+            }
+
+        }
+    }
+}

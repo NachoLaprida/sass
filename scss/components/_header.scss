@@ -1,0 +1,66 @@
+header{
+    background-color: $bg-header;
+    
+    .navbar{
+
+        .container-fluid{
+            
+            .navbar-brand{
+                
+                .logo{
+                    height: 60px;
+                    width: 60px;
+                    
+                    animation-name: camus;
+                    animation-duration: 2s;
+                    animation-delay: .5s;
+                    animation-iteration-count: infinite;
+                    animation-timing-function: ease;
+                    @keyframes camus {
+                        0%{
+                            transform: translate(10px, 0);
+                        }
+                        50%{
+                            transform: translate(200px, 0);
+                        }
+                        100%{
+                            transform: translate(0px, 0) rotate(360deg);
+                        }
+                    }
+                }
+                
+            }
+
+            .navbar-collapse{
+
+                .navbar-nav{
+
+                    .nav-item{
+
+                        .nav-link{
+
+                            color: $color-letra;
+                            border: solid $color-letra;
+                        }
+                        .nav-link:hover{
+                            background-color: $color-letra;
+                            color: $color-header;
+                            border: solid $color-header;
+                        }
+                        .nav-link:active{
+                            background-color: $color-header;
+                            color: $color-letra;
+                        }
+
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}    

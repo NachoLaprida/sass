@@ -1,0 +1,18 @@
+main{
+    .contenedor-civi{
+        .container-fluid{
+            .row{
+                .civilizacion{
+                    .civi-img{
+                        height: 50px;
+                        width: 50px;
+                        transition: all 1s ease;
+                    }
+                    .civi-img:hover{
+                        transform: rotate(360deg)
+                    }
+                }
+            }
+        }
+    }
+}

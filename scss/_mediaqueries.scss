@@ -1,0 +1,126 @@
+@media screen and (min-width: 992px){
+    /* --- navbar ---*/
+    header{
+        .navbar{
+            .container-fluid{ 
+                .navbar-brand{  
+                    .logo{
+                        animation-name: camus;
+                        animation-duration: 2s;
+                        animation-delay: .5s;
+                        animation-iteration-count: initial;
+                        animation-timing-function: ease;
+                        @keyframes camus {
+                            0%{
+                                transform: translate(10px, 0);
+                            }
+                            50%{
+                                transform: translate(300px, 0);
+                            }
+                            100%{
+                                transform: translate(0px, 0) rotate(360deg);
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    /* --- index --- */
+    main{    
+        .carousel-t{
+            .container{
+                .carousel{
+                    .carousel-inner{
+                        .carousel-item{
+                            iframe{
+                                height: 600px;
+                                width: 515px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+@media screen and (min-width:768px){
+    /* --- index --- */
+    .principal{
+        .container-fluid{
+            .row{
+                .img-principal{
+                    height: 250px;
+                    width: 380px;
+                }
+            }
+        }
+    }
+    .required{
+    }
+    .carousel-t{
+        .container{
+            .carousel{
+                .carousel-inner{
+                    .carousel-item{
+                        iframe{
+                            width: 600px;
+                            height: 515px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* --- civilizaciones --- */
+
+
+
+    /* --- galeria --- */
+    main{
+        .gallery{
+            .container{
+                .row{
+                    .col{
+                        .galeria-img{
+                            width: 400px;
+                            height: 200px;
+                            padding: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* --- footer --- */
+    footer{
+        .container-fluid{
+            .row{
+                .col-4{
+                    .link-arriba{
+                        width: 40%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px){
+    /* --- nav --- */
+    header{
+        .navbar{
+            .container-fluid{ 
+                .navbar-brand{  
+                    .logo{
+                    
+                    }
+                }
+            }
+        }
+    }
+}

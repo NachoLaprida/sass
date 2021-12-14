@@ -1,0 +1,17 @@
+.container{
+    form{
+        .row{
+            .col-auto{
+                .btn{
+                    background-color: $bg-header;
+                    border: solid $color-letra;
+                }
+                .btn:hover{
+                    background-color: $color-letra;
+                    color: $bg-header;
+                    border: $bg-header;
+                }
+            }
+        }
+    }
+}
