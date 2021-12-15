@@ -52,8 +52,8 @@ footer {
       color: #FFCE45; }
 
 main .principal .container-fluid .row .img-principal {
-  height: 180px;
-  width: 280px; }
+  height: 150px;
+  width: 250px; }
 
 main .required {
   background-color: #E8D0B3; }
@@ -107,10 +107,10 @@ main .gallery .container .row .col .galeria-img {
 
 @media screen and (min-width: 768px) {
   /* --- index --- */
-  .principal .container-fluid .row .img-principal {
-    height: 250px;
-    width: 380px; }
-  .carousel-t .container .carousel .carousel-inner .carousel-item iframe {
+  main .principal .container-fluid .row .img-principal {
+    height: 450px;
+    width: 680px; }
+  main .carousel-t .container .carousel .carousel-inner .carousel-item iframe {
     width: 600px;
     height: 515px; }
   /* --- civilizaciones --- */

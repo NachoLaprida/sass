@@ -48,26 +48,29 @@
 }
 @media screen and (min-width:768px){
     /* --- index --- */
-    .principal{
-        .container-fluid{
-            .row{
-                .img-principal{
-                    height: 250px;
-                    width: 380px;
+    main{
+        .principal{
+            .container-fluid{
+                .row{
+                    .img-principal{
+                        height: 450px;
+                        width: 680px;
+                    }
                 }
             }
         }
-    }
-    .required{
-    }
-    .carousel-t{
-        .container{
-            .carousel{
-                .carousel-inner{
-                    .carousel-item{
-                        iframe{
-                            width: 600px;
-                            height: 515px;
+    
+        .required{
+        }
+        .carousel-t{
+            .container{
+                .carousel{
+                    .carousel-inner{
+                        .carousel-item{
+                            iframe{
+                                width: 600px;
+                                height: 515px;
+                            }
                         }
                     }
                 }
