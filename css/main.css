@@ -2,7 +2,23 @@
   font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth; }
 
-header {
+/* MAPAS */
+.red-twitter {
+  color: #339be0; }
+
+.red-facebook {
+  color: #081694; }
+
+.red-instagram {
+  color: #ca1ba4; }
+
+/* EXTEND */
+.boton, header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
+  border: solid #FFCE45;
+  color: #FFCE45; }
+
+/* MIXIN */
+header .navbar {
   background-color: #C36839; }
   header .navbar .container-fluid .navbar-brand .logo {
     height: 60px;
@@ -20,9 +36,6 @@ header {
     transform: translate(200px, 0); }
   100% {
     transform: translate(0px, 0) rotate(360deg); } }
-  header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
-    color: #FFCE45;
-    border: solid #FFCE45; }
   header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
     background-color: #FFCE45;
     color: #7EB5A6;
@@ -52,6 +65,9 @@ footer {
       text-decoration: none;
       color: #FFCE45; }
 
+main .principal .container-fluid .row .col p {
+  font-size: 12px; }
+
 main .principal .container-fluid .row .img-principal {
   height: 150px;
   width: 250px; }
@@ -72,8 +88,8 @@ main .contenedor-civi .container-fluid .row .civilizacion .civi-img:hover {
   transform: rotate(360deg); }
 
 main .gallery .container .row .col .galeria-img {
-  width: 300px;
-  height: 150px;
+  height: 300px;
+  width: 150px;
   padding: 5px; }
 
 .container form .row .col-auto .btn {
@@ -100,6 +116,9 @@ main .gallery .container .row .col .galeria-img {
       transform: translate(300px, 0); }
     100% {
       transform: translate(0px, 0) rotate(360deg); } }
+  header .navbar .container-fluid .navbar-collapse {
+    display: flex;
+    justify-content: end; }
   /* --- index --- */
   main .carousel-t .container .carousel .carousel-inner .carousel-item iframe {
     height: 600px;
@@ -107,9 +126,11 @@ main .gallery .container .row .col .galeria-img {
 
 @media screen and (min-width: 768px) {
   /* --- index --- */
+  main .principal .container-fluid .row .col p {
+    font-size: 16px; }
   main .principal .container-fluid .row .img-principal {
     height: 450px;
-    width: 680px; }
+    width: 656px; }
   main .carousel-t .container .carousel .carousel-inner .carousel-item iframe {
     width: 600px;
     height: 515px; }

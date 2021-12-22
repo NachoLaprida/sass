@@ -4,9 +4,7 @@ main{
             .row{
                 .col{
                     .galeria-img{
-                        width: 300px;
-                        height: 150px;
-                        padding: 5px;
+                        @include size(300px, 150px, 5px)
                     }
                 }
             }

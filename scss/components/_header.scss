@@ -1,8 +1,7 @@
 header{
-    background-color: $bg-header;
     
     .navbar{
-
+        background-color: $bg-header;
         .container-fluid{
             
             .navbar-brand{
@@ -38,9 +37,7 @@ header{
                     .nav-item{
 
                         .nav-link{
-
-                            color: $color-letra;
-                            border: solid $color-letra;
+                            @extend .boton;
                         }
                         .nav-link:hover{
                             background-color: $color-letra;

@@ -2,3 +2,32 @@
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
+
+/* MAPAS */
+
+$redes:(
+    twitter: #339be0,
+    facebook: #081694,
+    instagram: #ca1ba4,
+
+);
+@each $red, $color in $redes {
+    .red-#{$red} {
+        color: $color;
+    }
+}
+
+/* EXTEND */
+
+.boton{
+    border: solid $color-letra;
+    color: $color-letra;
+}
+
+/* MIXIN */
+
+@mixin size ($alto, $ancho, $padding) {
+    height: $alto;
+    width: $ancho;
+    padding: $padding;
+}

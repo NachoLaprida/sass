@@ -2,6 +2,11 @@ main{
     .principal{
         .container-fluid{
             .row{
+                .col{
+                    p{
+                        font-size: 12px;
+                    }
+                }
                 .img-principal{
                     height: 150px;
                     width: 250px;
