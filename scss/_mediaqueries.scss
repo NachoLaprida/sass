@@ -1,3 +1,85 @@
+
+@media screen and (min-width:768px){
+    /* --- index --- */
+    main{
+        .principal{
+            .container-fluid{
+                .row{
+                    .col{
+                        p{
+                            font-size: 16px;
+                        }
+                    }
+                    .img-principal{
+                        height: 450px;
+                        width: 656px;
+                    }
+                }
+            }
+        }
+    
+        .required{
+        }
+        .carousel-t{
+            .container{
+                .carousel{
+                    .carousel-inner{
+                        .carousel-item{
+                            iframe{
+                                width: 600px;
+                                height: 515px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* --- civilizaciones --- */
+
+
+
+    /* --- galeria --- */
+    main{
+        .gallery{
+            .contenedor-img{    
+                display: grid;
+                grid-template-columns: 380px 380px;
+                grid-template-rows: 200px 200px;
+                justify-content: center;
+            }
+        }
+    }
+
+    /* --- footer --- */
+    footer{
+        .container-fluid{
+            .row{
+                .col-4{
+                    .link-arriba{
+                        width: 40%;
+                    }
+                }
+            }
+        }
+    }
+}
+/* 
+@media screen and (max-width: 425px){ */
+    /* --- nav --- */
+/*    header{
+        .navbar{
+            .container-fluid{ 
+                .navbar-brand{  
+                    .logo{
+                    
+                    }
+                }
+            }
+        }
+    }
+} */
 @media screen and (min-width: 992px){
     /* --- navbar ---*/
     header{
@@ -50,88 +132,15 @@
         }
     }
 }
-@media screen and (min-width:768px){
-    /* --- index --- */
-    main{
-        .principal{
-            .container-fluid{
-                .row{
-                    .col{
-                        p{
-                            font-size: 16px;
-                        }
-                    }
-                    .img-principal{
-                        height: 450px;
-                        width: 656px;
-                    }
-                }
-            }
-        }
-    
-        .required{
-        }
-        .carousel-t{
-            .container{
-                .carousel{
-                    .carousel-inner{
-                        .carousel-item{
-                            iframe{
-                                width: 600px;
-                                height: 515px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    /* --- civilizaciones --- */
-
-
-
-    /* --- galeria --- */
+@media screen and (min-width: 1024px){
+    /*--- galeria --- */
     main{
         .gallery{
-            .container{
-                .row{
-                    .col{
-                        .galeria-img{
-                            width: 400px;
-                            height: 200px;
-                            padding: 5px;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    /* --- footer --- */
-    footer{
-        .container-fluid{
-            .row{
-                .col-4{
-                    .link-arriba{
-                        width: 40%;
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 425px){
-    /* --- nav --- */
-    header{
-        .navbar{
-            .container-fluid{ 
-                .navbar-brand{  
-                    .logo{
-                    
-                    }
-                }
+            .contenedor-img{    
+                display: grid;
+                grid-template-columns: 400px 400px 400px;
+                grid-template-rows: 200px 200px 200px;
+                justify-content: center;      
             }
         }
     }

@@ -1,5 +1,11 @@
 * {
   font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+body {
   scroll-behavior: smooth; }
 
 /* MAPAS */
@@ -87,10 +93,29 @@ main .contenedor-civi .container-fluid .row .civilizacion .civi-img {
 main .contenedor-civi .container-fluid .row .civilizacion .civi-img:hover {
   transform: rotate(360deg); }
 
-main .gallery .container .row .col .galeria-img {
-  height: 300px;
-  width: 150px;
-  padding: 5px; }
+/* main{
+    .gallery{
+        .container{
+            .row{
+                .col{
+                    .galeria-img{
+                        @include size(300px, 150px, 5px)
+                    }
+                }
+            }
+        }
+    }
+} */
+main .gallery .contenedor-img {
+  display: grid;
+  grid-template-columns: 320px;
+  grid-template-rows: 160px;
+  justify-content: center; }
+  main .gallery .contenedor-img .div-imagen {
+    border: solid 3px #C36839; }
+    main .gallery .contenedor-img .div-imagen img {
+      height: 100%;
+      width: 100%; }
 
 .container form .row .col-auto .btn {
   background-color: #C36839;
@@ -101,6 +126,42 @@ main .gallery .container .row .col .galeria-img {
   color: #C36839;
   border: #C36839; }
 
+@media screen and (min-width: 768px) {
+  /* --- index --- */
+  main .principal .container-fluid .row .col p {
+    font-size: 16px; }
+  main .principal .container-fluid .row .img-principal {
+    height: 450px;
+    width: 656px; }
+  main .carousel-t .container .carousel .carousel-inner .carousel-item iframe {
+    width: 600px;
+    height: 515px; }
+  /* --- civilizaciones --- */
+  /* --- galeria --- */
+  main .gallery .contenedor-img {
+    display: grid;
+    grid-template-columns: 380px 380px;
+    grid-template-rows: 200px 200px;
+    justify-content: center; }
+  /* --- footer --- */
+  footer .container-fluid .row .col-4 .link-arriba {
+    width: 40%; } }
+
+/* 
+@media screen and (max-width: 425px){ */
+/* --- nav --- */
+/*    header{
+        .navbar{
+            .container-fluid{ 
+                .navbar-brand{  
+                    .logo{
+                    
+                    }
+                }
+            }
+        }
+    }
+} */
 @media screen and (min-width: 992px) {
   /* --- navbar ---*/
   header .navbar .container-fluid .navbar-brand .logo {
@@ -124,25 +185,10 @@ main .gallery .container .row .col .galeria-img {
     height: 600px;
     width: 515px; } }
 
-@media screen and (min-width: 768px) {
-  /* --- index --- */
-  main .principal .container-fluid .row .col p {
-    font-size: 16px; }
-  main .principal .container-fluid .row .img-principal {
-    height: 450px;
-    width: 656px; }
-  main .carousel-t .container .carousel .carousel-inner .carousel-item iframe {
-    width: 600px;
-    height: 515px; }
-  /* --- civilizaciones --- */
-  /* --- galeria --- */
-  main .gallery .container .row .col .galeria-img {
-    width: 400px;
-    height: 200px;
-    padding: 5px; }
-  /* --- footer --- */
-  footer .container-fluid .row .col-4 .link-arriba {
-    width: 40%; } }
-
-@media screen and (max-width: 425px) {
-  /* --- nav --- */ }
+@media screen and (min-width: 1024px) {
+  /*--- galeria --- */
+  main .gallery .contenedor-img {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 200px 200px 200px;
+    justify-content: center; } }

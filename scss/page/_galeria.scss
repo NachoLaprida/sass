@@ -1,4 +1,4 @@
-main{
+/* main{
     .gallery{
         .container{
             .row{
@@ -8,6 +8,23 @@ main{
                     }
                 }
             }
+        }
+    }
+} */
+main{
+    .gallery{
+        .contenedor-img{    
+            display: grid;
+            grid-template-columns: 320px;
+            grid-template-rows: 160px;
+            justify-content: center;
+            .div-imagen{
+                border: solid 3px $bg-header; 
+                img{
+                    height: 100%;
+                    width: 100%;
+                }
+            }       
         }
     }
 }
