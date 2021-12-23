@@ -61,7 +61,9 @@ footer {
     footer .container-fluid .row .col-4 .link-arriba a {
       color: #863404;
       text-decoration: none; }
-  footer .container-fluid .row .social-network {
+  footer .container-fluid .row .social-network p {
+    color: #863404; }
+  footer .container-fluid .row .social-network a i {
     color: #863404;
     font-size: 20px;
     text-align: center; }

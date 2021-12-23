@@ -17,9 +17,16 @@ footer{
                 }  
             }
             .social-network{
+                p{
                 color: $footer-color;
-                font-size: 20px;
-                text-align: center;
+                }
+                a{
+                    i{
+                        color: $footer-color;
+                        font-size: 20px;
+                        text-align: center;
+                    }
+                }
 
             }
             .developer{
