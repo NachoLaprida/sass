@@ -1,4 +1,38 @@
+@media screen and (min-width:425px){
+    /* --- index --- */
+    main{
+        .principal{
+            .container-fluid{
+                display: grid;
+                grid-template-columns: auto;
+                .row{
+                    .col{
+                        p{
+                        }
+                    }
+                    .img-principal{
+                        @include size(200px, 425px, 0px)
+                        img{
+                            
+                        }   
+                    }
+                }
+            }
+        .required{
+            .container-fluid{
+                .row{
+                    /* display: grid;
+                    grid-template-columns: auto auto; */
+                    .col{
 
+                    }
+                }
+
+            }
+        }
+        }
+    }
+}
 @media screen and (min-width:768px){
     /* --- index --- */
     main{
@@ -11,8 +45,7 @@
                         }
                     }
                     .img-principal{
-                        height: 450px;
-                        width: 656px;
+                        @include size(450px, 656px, 0px)
                     }
                 }
             }
@@ -37,7 +70,21 @@
     }
 
     /* --- civilizaciones --- */
-
+    main{
+        .contenedor-civi{
+            .container-fluid{
+                .row{
+                    display: grid;
+                    grid-template-columns: auto auto auto;
+                    .civilizacion{
+                        .civi-img{
+                            @include size (75px, 75px, 0px)
+                        }
+                    }
+                }
+            }
+        }
+    }
 
 
     /* --- galeria --- */
@@ -65,21 +112,6 @@
         }
     }
 }
-/* 
-@media screen and (max-width: 425px){ */
-    /* --- nav --- */
-/*    header{
-        .navbar{
-            .container-fluid{ 
-                .navbar-brand{  
-                    .logo{
-                    
-                    }
-                }
-            }
-        }
-    }
-} */
 @media screen and (min-width: 992px){
     /* --- navbar ---*/
     header{
@@ -132,7 +164,7 @@
         }
     }
 }
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1440px){
     /*--- galeria --- */
     main{
         .gallery{

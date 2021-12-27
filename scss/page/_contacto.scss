@@ -5,11 +5,11 @@
                 .btn{
                     background-color: $bg-header;
                     border: solid $color-letra;
-                }
-                .btn:hover{
-                    background-color: $color-letra;
-                    color: $bg-header;
-                    border: $bg-header;
+                    &:hover{
+                        background-color: $color-letra;
+                        color: $bg-header;
+                        border: $bg-header;
+                    }
                 }
             }
         }

@@ -38,17 +38,16 @@ header{
 
                         .nav-link{
                             @extend .boton;
+                            &:hover{
+                                background-color: $color-letra;
+                                color: $color-header;
+                                border: solid $color-header;
+                                &:active{
+                                    background-color: $color-header;
+                                    color: $color-letra;
+                                }
+                            }
                         }
-                        .nav-link:hover{
-                            background-color: $color-letra;
-                            color: $color-header;
-                            border: solid $color-header;
-                        }
-                        .nav-link:active{
-                            background-color: $color-header;
-                            color: $color-letra;
-                        }
-
 
                     }
 

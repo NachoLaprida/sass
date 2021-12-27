@@ -2,10 +2,14 @@ main{
     .contenedor-civi{
         .container-fluid{
             .row{
+                display: grid;
+                grid-template-columns: auto;
+                
+
                 .civilizacion{
+                    border: solid 2px $bg-header;
                     .civi-img{
-                        height: 50px;
-                        width: 50px;
+                        @include size(50px, 50px, 5px)
                         transition: all 1s ease;
                     }
                     .civi-img:hover{

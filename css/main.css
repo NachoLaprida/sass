@@ -5,9 +5,6 @@
   margin: 0;
   padding: 0; }
 
-body {
-  scroll-behavior: smooth; }
-
 /* MAPAS */
 .red-twitter {
   color: #339be0; }
@@ -17,6 +14,9 @@ body {
 
 .red-instagram {
   color: #ca1ba4; }
+
+.red-youtube {
+  color: red; }
 
 /* EXTEND */
 .boton, header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
@@ -46,9 +46,9 @@ header .navbar {
     background-color: #FFCE45;
     color: #7EB5A6;
     border: solid #7EB5A6; }
-  header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:active {
-    background-color: #7EB5A6;
-    color: #FFCE45; }
+    header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover:active {
+      background-color: #7EB5A6;
+      color: #FFCE45; }
 
 footer {
   background-color: #C36839; }
@@ -64,7 +64,6 @@ footer {
   footer .container-fluid .row .social-network p {
     color: #863404; }
   footer .container-fluid .row .social-network a i {
-    color: #863404;
     font-size: 20px;
     text-align: center; }
   footer .container-fluid .row .developer {
@@ -82,18 +81,25 @@ main .principal .container-fluid .row .img-principal {
 
 main .required {
   background-color: #E8D0B3; }
+  main .required .container-fluid .row .col {
+    text-align: center; }
 
 main .carousel-t .container .carousel .carousel-inner .carousel-item iframe {
   height: 300px;
   margin: 10px; }
 
-main .contenedor-civi .container-fluid .row .civilizacion .civi-img {
-  height: 50px;
-  width: 50px;
-  transition: all 1s ease; }
-
-main .contenedor-civi .container-fluid .row .civilizacion .civi-img:hover {
-  transform: rotate(360deg); }
+main .contenedor-civi .container-fluid .row {
+  display: grid;
+  grid-template-columns: auto; }
+  main .contenedor-civi .container-fluid .row .civilizacion {
+    border: solid 2px #C36839; }
+    main .contenedor-civi .container-fluid .row .civilizacion .civi-img {
+      height: 50px;
+      width: 50px;
+      padding: 5px;
+      transition: all 1s ease; }
+    main .contenedor-civi .container-fluid .row .civilizacion .civi-img:hover {
+      transform: rotate(360deg); }
 
 /* main{
     .gallery{
@@ -122,11 +128,23 @@ main .gallery .contenedor-img {
 .container form .row .col-auto .btn {
   background-color: #C36839;
   border: solid #FFCE45; }
+  .container form .row .col-auto .btn:hover {
+    background-color: #FFCE45;
+    color: #C36839;
+    border: #C36839; }
 
-.container form .row .col-auto .btn:hover {
-  background-color: #FFCE45;
-  color: #C36839;
-  border: #C36839; }
+@media screen and (min-width: 425px) {
+  /* --- index --- */
+  main .principal .container-fluid {
+    display: grid;
+    grid-template-columns: auto; }
+    main .principal .container-fluid .row .img-principal {
+      height: 200px;
+      width: 425px;
+      padding: 0px; }
+  main .principal .required .container-fluid .row {
+    /* display: grid;
+                    grid-template-columns: auto auto; */ } }
 
 @media screen and (min-width: 768px) {
   /* --- index --- */
@@ -134,11 +152,19 @@ main .gallery .contenedor-img {
     font-size: 16px; }
   main .principal .container-fluid .row .img-principal {
     height: 450px;
-    width: 656px; }
+    width: 656px;
+    padding: 0px; }
   main .carousel-t .container .carousel .carousel-inner .carousel-item iframe {
     width: 600px;
     height: 515px; }
   /* --- civilizaciones --- */
+  main .contenedor-civi .container-fluid .row {
+    display: grid;
+    grid-template-columns: auto auto auto; }
+    main .contenedor-civi .container-fluid .row .civilizacion .civi-img {
+      height: 75px;
+      width: 75px;
+      padding: 0px; }
   /* --- galeria --- */
   main .gallery .contenedor-img {
     display: grid;
@@ -149,21 +175,6 @@ main .gallery .contenedor-img {
   footer .container-fluid .row .col-4 .link-arriba {
     width: 40%; } }
 
-/* 
-@media screen and (max-width: 425px){ */
-/* --- nav --- */
-/*    header{
-        .navbar{
-            .container-fluid{ 
-                .navbar-brand{  
-                    .logo{
-                    
-                    }
-                }
-            }
-        }
-    }
-} */
 @media screen and (min-width: 992px) {
   /* --- navbar ---*/
   header .navbar .container-fluid .navbar-brand .logo {
@@ -187,7 +198,7 @@ main .gallery .contenedor-img {
     height: 600px;
     width: 515px; } }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
   /*--- galeria --- */
   main .gallery .contenedor-img {
     display: grid;

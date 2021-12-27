@@ -16,6 +16,20 @@ main{
     }
     .required{
         background-color: $bg-required;
+        .container-fluid{
+            .row{
+                
+                .col{
+                    text-align: center;
+                    li{
+                        i{
+
+                        }
+                    }
+
+                }
+            }
+        }
     }
     .carousel-t{
         .container{
