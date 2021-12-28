@@ -101,19 +101,6 @@ main .contenedor-civi .container-fluid .row {
     main .contenedor-civi .container-fluid .row .civilizacion .civi-img:hover {
       transform: rotate(360deg); }
 
-/* main{
-    .gallery{
-        .container{
-            .row{
-                .col{
-                    .galeria-img{
-                        @include size(300px, 150px, 5px)
-                    }
-                }
-            }
-        }
-    }
-} */
 main .gallery .contenedor-img {
   display: grid;
   grid-template-columns: 320px;
@@ -142,9 +129,9 @@ main .gallery .contenedor-img {
       height: 200px;
       width: 425px;
       padding: 0px; }
-  main .principal .required .container-fluid .row {
-    /* display: grid;
-                    grid-template-columns: auto auto; */ } }
+  main .required .container-fluid .row {
+    /* display: flex;
+                    flex-flow: row;  */ } }
 
 @media screen and (min-width: 768px) {
   /* --- index --- */

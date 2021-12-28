@@ -18,18 +18,18 @@
                     }
                 }
             }
+        }
         .required{
             .container-fluid{
                 .row{
-                    /* display: grid;
-                    grid-template-columns: auto auto; */
+                    /* display: flex;
+                    flex-flow: row;  */  
                     .col{
-
+                        
                     }
                 }
 
             }
-        }
         }
     }
 }
