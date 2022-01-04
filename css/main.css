@@ -132,6 +132,83 @@ main .contact .container {
       color: #C36839;
       border: #C36839; }
 
+main .prueba {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; }
+  main .prueba .nacho {
+    position: relative;
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    main .prueba .nacho .sol {
+      position: relative;
+      width: 275px;
+      height: 275px;
+      overflow: hidden;
+      transition: 0.5s; }
+      main .prueba .nacho .sol:hover {
+        z-index: 1;
+        transform: scale(1.25);
+        box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5); }
+        main .prueba .nacho .sol:hover .camus:before {
+          opacity: 1; }
+        main .prueba .nacho .sol:hover .lobo h2 {
+          transform: translateY(0);
+          transition-delay: 0.6s; }
+        main .prueba .nacho .sol:hover .lobo p {
+          transform: translateY(0);
+          transition-delay: 0.7s; }
+      main .prueba .nacho .sol .camus {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; }
+        main .prueba .nacho .sol .camus:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 1;
+          background: linear-gradient(180deg, #f00, #000);
+          mix-blend-mode: multiply;
+          opacity: 0;
+          transition: 0.5s; }
+        main .prueba .nacho .sol .camus img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+      main .prueba .nacho .sol .lobo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        padding: 20px; }
+        main .prueba .nacho .sol .lobo h2 {
+          color: #fff;
+          text-transform: uppercase;
+          margin-bottom: 5px;
+          font-size: 20px;
+          transform: translateY(300px);
+          transition: 0.5s; }
+        main .prueba .nacho .sol .lobo p {
+          color: #fff;
+          transform: translateY(300px);
+          transition: 0.5s;
+          font-size: 14px; }
+
 @media screen and (min-width: 425px) {
   /* --- index --- */
   main .principal .container-fluid {
