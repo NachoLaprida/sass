@@ -7,7 +7,7 @@ main{
             grid-template-rows: 160px;
             justify-content: center;
             .div-imagen{
-                border: solid 3px $bg-header; 
+                border: solid $bg-header;
                 &:hover{
                     filter: grayscale(75%);
                 }

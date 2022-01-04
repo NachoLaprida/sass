@@ -109,7 +109,7 @@ main .gallery .contenedor-img {
   grid-template-rows: 160px;
   justify-content: center; }
   main .gallery .contenedor-img .div-imagen {
-    border: solid 3px #C36839; }
+    border: solid #C36839; }
     main .gallery .contenedor-img .div-imagen:hover {
       filter: grayscale(75%); }
     main .gallery .contenedor-img .div-imagen img {
