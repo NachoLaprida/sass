@@ -20,7 +20,7 @@
 
 /* EXTEND */
 .boton, header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
-  border: solid #FFCE45;
+  border-bottom: solid #FFCE45;
   color: #FFCE45; }
 
 /* MIXIN */
@@ -43,11 +43,11 @@ header .navbar {
   100% {
     transform: translate(0px, 0) rotate(360deg); } }
   header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
-    background-color: #FFCE45;
+    /* background-color: $color-letra; */
     color: #7EB5A6;
-    border: solid #7EB5A6; }
+    border-bottom: solid #7EB5A6; }
     header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover:active {
-      background-color: #7EB5A6;
+      /* background-color: $color-header; */
       color: #FFCE45; }
 
 footer {

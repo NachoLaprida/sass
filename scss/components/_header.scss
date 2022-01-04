@@ -39,11 +39,11 @@ header{
                         .nav-link{
                             @extend .boton;
                             &:hover{
-                                background-color: $color-letra;
+                                /* background-color: $color-letra; */
                                 color: $color-header;
-                                border: solid $color-header;
+                                border-bottom: solid $color-header;
                                 &:active{
-                                    background-color: $color-header;
+                                    /* background-color: $color-header; */
                                     color: $color-letra;
                                 }
                             }
