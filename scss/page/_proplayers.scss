@@ -2,9 +2,16 @@
 
 main{
     .pro-player{
-        h1{
-            font-size: 60px;
-            padding: 10px;
+        .qwe{
+            background-image: url(../../imagenes/esports2018.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 200px;
+            h1{
+                font-size: 60px;
+                -webkit-text-fill-color: #fff;
+                -webkit-text-stroke: black 2px;      
+            }
         }
         .container{
             .row{

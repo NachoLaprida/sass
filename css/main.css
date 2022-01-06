@@ -122,9 +122,15 @@ main .gallery .contenedor-img {
       width: 100%; }
 
 /* ---------------- PRO PLAYER ----------------------------- */
-main .pro-player h1 {
-  font-size: 60px;
-  padding: 10px; }
+main .pro-player .qwe {
+  background-image: url(../../imagenes/esports2018.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px; }
+  main .pro-player .qwe h1 {
+    font-size: 60px;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke: black 2px; }
 
 main .pro-player .container .row .carta {
   padding: 10px; }
