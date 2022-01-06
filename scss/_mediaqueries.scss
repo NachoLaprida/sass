@@ -6,9 +6,9 @@
     main{
         .principal{
             .container-fluid{
-                display: grid;
-                grid-template-columns: auto;
                 .row{
+                    display: grid;
+                    grid-template-columns: auto;
                     .col{
                         p{
                         }

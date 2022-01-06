@@ -83,10 +83,10 @@ main .principal .container-fluid .row .img-principal {
   height: 150px;
   width: 250px; }
   main .principal .container-fluid .row .img-principal img {
-    height: 100%;
-    width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat; }
+    /* height: 100%;
+                        width: 100%;
+                        background-size: contain;
+                        background-repeat: no-repeat; */ }
 
 main .required {
   background-color: #E8D0B3; }
@@ -123,7 +123,7 @@ main .gallery .contenedor-img {
 
 /* ---------------- PRO PLAYER ----------------------------- */
 main .pro-player .qwe {
-  background-image: url(../../imagenes/esports.jpg);
+  background-image: url(../../../imagenes/esports.jpg);
   background-size: cover;
   background-position: center;
   height: 200px; }
@@ -246,7 +246,7 @@ main .contact .container {
 /* ------------- MEDIAQUERIES --------------------------- */
 @media screen and (min-width: 425px) {
   /* --- index --- */
-  main .principal .container-fluid {
+  main .principal .container-fluid .row {
     display: grid;
     grid-template-columns: auto; }
     main .principal .container-fluid .row .img-principal {
