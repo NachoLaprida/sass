@@ -100,14 +100,23 @@
 
     /* --- civilizaciones --- */
     main{
+        .prueba{
+            display: none;
+        }
         .contenedor-civi{
+            display: block;
             .container-fluid{
                 .row{
                     display: grid;
                     grid-template-columns: auto auto auto;
                     .civilizacion{
+                        border: solid 2px $bg-header;
                         .civi-img{
                             @include size (75px, 75px, 0px)
+                            transition: all 1s ease;
+                        }
+                        .civi-img:hover{
+                            transform: rotate(360deg);
                         }
                     }
                 }

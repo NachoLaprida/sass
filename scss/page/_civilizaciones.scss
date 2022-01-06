@@ -1,17 +1,17 @@
 /* ------- CIVILIZACIONES -------- */
 
 main{
+    .prueba{
+        
+    }
     .contenedor-civi{
+        display: none;
         .container-fluid{
             .row{
-                display: grid;
-                grid-template-columns: auto;
-                
-
                 .civilizacion{
-                    border: solid 2px $bg-header;
+                    
                     .civi-img{
-                        @include size(50px, 50px, 5px)
+                        
                         transition: all 1s ease;
                     }
                     .civi-img:hover{

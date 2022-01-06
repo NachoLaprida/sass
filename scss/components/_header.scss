@@ -1,3 +1,5 @@
+/* -------- HEADER -------------------- */
+
 header{
     
     .navbar{
@@ -13,7 +15,7 @@ header{
                     animation-name: camus;
                     animation-duration: 2s;
                     animation-delay: .5s;
-                    animation-iteration-count: infinite;
+                    animation-iteration-count: initial;
                     animation-timing-function: ease;
                     @keyframes camus {
                         0%{
@@ -39,11 +41,11 @@ header{
                         .nav-link{
                             @extend .boton;
                             &:hover{
-                                /* background-color: $color-letra; */
+                                
                                 color: $color-header;
                                 border-bottom: solid $color-header;
                                 &:active{
-                                    /* background-color: $color-header; */
+                                    
                                     color: $color-letra;
                                 }
                             }

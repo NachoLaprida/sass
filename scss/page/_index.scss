@@ -12,6 +12,14 @@ main{
                 .img-principal{
                     height: 150px;
                     width: 250px;
+
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                    }
+                    
                 }
             }
         }
