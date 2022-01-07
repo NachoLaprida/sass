@@ -28,12 +28,19 @@ main{
         }
     }
     .requisitos{
+        
         .fila{
-            display: grid;
-            grid-template-columns: auto;
+            /* display: grid;
+            grid-template-columns: auto; */
+            display: flex;
+            flex-direction: column-reverse;
+            
             padding: 10px;
             .columna-img{
                 justify-self: center;
+                text-align: center;
+                
+                
                 padding: 5px;
                 .contenedor-img{
                     img{
