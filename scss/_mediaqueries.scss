@@ -2,37 +2,6 @@
 
 
 @media screen and (min-width:425px){
-    /* --- index --- */
-    main{
-        .principal{
-            .container-fluid{
-                .row{
-                    display: grid;
-                    grid-template-columns: auto;
-                    .col{
-                        p{
-                        }
-                    }
-                    .img-principal{
-                        @include size(200px, 425px, 0px)
-                        img{
-                            
-                        }   
-                    }
-                }
-            }
-        }
-        .required{
-            .container-fluid{
-                .row{
-                    .col{
-                        
-                    }
-                }
-
-            }
-        }
-    }
     /* --- galeria --- */
     main{
         .gallery{
@@ -46,7 +15,7 @@
                     
                     filter: grayscale(50%);
                     
-                }
+                    }
                 }
             }
         }
@@ -55,29 +24,51 @@
 @media screen and (min-width:768px){
     /* --- index --- */
     main{
-        .principal{
-            .container-fluid{
-                .row{
-                    .col{
-                        p{
-                            font-size: 16px;
-                        }
+        .primer-nota{
+            .fila{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                .columna-text{
+                    text-align: left;
+                    align-self: center;
+                    .contenedor-text{
+                        
                     }
-                    .img-principal{
-                        @include size(450px, 656px, 0px)
+                }
+                .columna-img{
+                    .contenedor-img{
+                        
+                        img{
+                            @include size (240px, 300px, 0)
+                        }
                     }
                 }
             }
         }
-    
-        .required{
-            .container-fluid{
-                .row{
-                    .col{
-                        li{
-                            font-size: 16px;
+        .requisitos{
+            h2{
+                font-size: 26px;
+            }
+            .fila{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                padding: 10px;
+                .columna-img{
+                    align-self: center;
+                    .contenedor-img{
+                        img{
+                            @include size (240px, 300px, 0)
                         }
-
+                    }
+                }
+                .columna-text{
+                    text-align: left;
+                    align-self: center;
+                    h3{
+                        font-size: 16px;
+                        padding: 5px;
+                    }
+                    li{
                     }
                 }
             }
@@ -216,7 +207,53 @@
         }
     }
     /* --- index --- */
-    main{   
+    main{  
+        .primer-nota{
+            .fila{
+                .columna-text{
+                    text-align: left;
+                    align-self: center;
+                    .contenedor-text{
+                    }
+                }
+                .columna-img{
+                    .contenedor-img{
+                        
+                        img{
+                            @include size (370px, 450px, 0)
+                        }
+                    }
+                }
+            }
+        }
+        .requisitos{
+            h2{
+                font-size: 30px;
+            }
+            .fila{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                .columna-img{
+                    .contenedor-img{
+                        img{
+                            height: 370px;
+                            width: 450px;
+                        }
+                    }
+                }
+                .columna-text{
+                    
+                    text-align: left;
+                    align-self: center;
+                    h3{
+                        font-size: 18px;
+                        padding: 5px;
+                    }
+                    li{
+                    }
+                }
+            }
+        }
         .carousel-t{
             .container{
                 .carousel{
@@ -234,6 +271,60 @@
     }
 }
 @media screen and (min-width: 1440px){
+    /* --- index --- */
+    main{  
+        .primer-nota{
+            .fila{
+                .columna-text{
+                    text-align: left;
+                    align-self: center;
+                    margin-left: 20px;
+                    .contenedor-text{
+                        font-size: 18px;
+                    }
+                }
+                .columna-img{
+                    .contenedor-img{
+                        
+                        img{
+                            @include size (470px, 650px, 0)
+                        }
+                    }
+                }
+            }
+        }
+        .requisitos{
+            h2{
+                font-size: 36px;
+            }
+            .fila{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                padding: 10px;
+                .columna-img{
+                    align-self: center;
+                    .contenedor-img{
+                        img{
+                            @include size (470px, 650px, 0)
+                        }
+                    }
+                }
+                .columna-text{
+                    text-align: left;
+                    align-self: center;
+                    h3{
+                        font-size: 28px;
+                        padding: 5px;
+                    }
+                    li{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    
+    
     /*--- galeria --- */
     main{
         .gallery{

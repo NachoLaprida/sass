@@ -1,43 +1,61 @@
 /* ---------------- INDEX ------------------------------ */
 
 main{
-    .principal{
-        .container-fluid{
-            .row{
-                .col{
-                    p{
-                        font-size: 12px;
-                    }
-                }
-                .img-principal{
-                    height: 150px;
-                    width: 250px;
-
-                    img{
-                        /* height: 100%;
-                        width: 100%;
-                        background-size: contain;
-                        background-repeat: no-repeat; */
-                    }
-                    
+    .primer-nota{
+        .fila{
+            display: grid;
+            grid-template-columns: auto;
+            
+            padding: 10px;
+            .columna-text{
+                text-align: center;
+                padding: 5px;
+                .contenedor-text{
+                    font-size: 14px;
                 }
             }
+            .columna-img{
+                justify-self: center;
+                padding: 5px;
+                .contenedor-img{
+                    
+                    img{
+                        @include size (240px, 300px, 0)
+                    }
+                }
+            }
+
         }
     }
-    .required{
-        background-color: $bg-required;
-        .container-fluid{
-            .row{
-                
-                .col{
-                    text-align: center;
-                    li{
-                        font-size: 12px;
-                        i{
-
-                        }
+    .requisitos{
+        h2{
+            font-size: 20px;
+            padding: 5px 40px;
+            text-decoration: underline;
+        }
+        .fila{
+            display: grid;
+            grid-template-columns: auto;
+            padding: 10px;
+            .columna-img{
+                justify-self: center;
+                padding: 5px;
+                .contenedor-img{
+                    img{
+                        @include size (240px, 300px, 0)
                     }
-
+                }
+            }
+            .columna-text{
+                padding: 5px;
+                h3{
+                    font-size: 16px;
+                    text-align: center;
+                    padding: 5px;
+                }
+                li{
+                    font-size: 14px;
+                    text-align: center;
                 }
             }
         }
