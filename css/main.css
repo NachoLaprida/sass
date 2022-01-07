@@ -93,11 +93,6 @@ main .primer-nota .fila {
       width: 300px;
       padding: 0; }
 
-main .requisitos h2 {
-  font-size: 20px;
-  padding: 5px 40px;
-  text-decoration: underline; }
-
 main .requisitos .fila {
   display: grid;
   grid-template-columns: auto;
@@ -111,6 +106,10 @@ main .requisitos .fila {
       padding: 0; }
   main .requisitos .fila .columna-text {
     padding: 5px; }
+    main .requisitos .fila .columna-text h2 {
+      font-size: 20px;
+      padding: 5px 40px;
+      text-decoration: underline; }
     main .requisitos .fila .columna-text h3 {
       font-size: 16px;
       text-align: center;
@@ -288,8 +287,6 @@ main .contact .container {
       height: 240px;
       width: 300px;
       padding: 0; }
-  main .requisitos h2 {
-    font-size: 26px; }
   main .requisitos .fila {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -303,6 +300,8 @@ main .contact .container {
     main .requisitos .fila .columna-text {
       text-align: left;
       align-self: center; }
+      main .requisitos .fila .columna-text h2 {
+        font-size: 26px; }
       main .requisitos .fila .columna-text h3 {
         font-size: 16px;
         padding: 5px; }
@@ -369,8 +368,6 @@ main .contact .container {
     height: 370px;
     width: 450px;
     padding: 0; }
-  main .requisitos h2 {
-    font-size: 30px; }
   main .requisitos .fila {
     display: grid;
     grid-template-columns: repeat(2, 1fr); }
@@ -380,6 +377,8 @@ main .contact .container {
     main .requisitos .fila .columna-text {
       text-align: left;
       align-self: center; }
+      main .requisitos .fila .columna-text h2 {
+        font-size: 30px; }
       main .requisitos .fila .columna-text h3 {
         font-size: 18px;
         padding: 5px; }
@@ -389,8 +388,19 @@ main .contact .container {
 
 @media screen and (min-width: 1440px) {
   /* --- index --- */
-  header nav .container-fluid .collapse .navbar-nav .nav-item {
-    font-size: 24px; }
+  /*   header{
+        nav{
+            .container-fluid{
+                .collapse{
+                    .navbar-nav{
+                        .nav-item{
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    } */
   main .primer-nota .fila .columna-text {
     text-align: left;
     align-self: center;
@@ -401,8 +411,6 @@ main .contact .container {
     height: 470px;
     width: 650px;
     padding: 0; }
-  main .requisitos h2 {
-    font-size: 36px; }
   main .requisitos .fila {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -416,6 +424,8 @@ main .contact .container {
     main .requisitos .fila .columna-text {
       text-align: left;
       align-self: center; }
+      main .requisitos .fila .columna-text h2 {
+        font-size: 36px; }
       main .requisitos .fila .columna-text h3 {
         font-size: 28px;
         padding: 5px; }

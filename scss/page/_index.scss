@@ -28,11 +28,6 @@ main{
         }
     }
     .requisitos{
-        h2{
-            font-size: 20px;
-            padding: 5px 40px;
-            text-decoration: underline;
-        }
         .fila{
             display: grid;
             grid-template-columns: auto;
@@ -48,6 +43,11 @@ main{
             }
             .columna-text{
                 padding: 5px;
+                h2{
+                    font-size: 20px;
+                    padding: 5px 40px;
+                    text-decoration: underline;
+                }
                 h3{
                     font-size: 16px;
                     text-align: center;
