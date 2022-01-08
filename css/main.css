@@ -54,103 +54,56 @@ header .navbar {
 
 /* ---------------  FOOTER ---------------------- */
 footer {
-  background-color: #C36839;
-  /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 50px;
-    color:#fff;
-    background: #262626; */
-  /* .l-footer{
-        margin-right: 10px;
-        margin-bottom: 10px;
-        h1{
-
-            img{
-            }
-        }        
-        p{
-
-        }
-    }
-    .r-footer{
-        display: flex;
-        flex-flow: row wrap;
-        list-style: none;
-        padding-left: 0;
-        li{
-        line-height: 10px;
-            h2{
-                font-weight: 900;
-                font-size: 16px;
-            }
-            .box{
-                list-style: none;
-                padding-left: 0;
-                li{
+  background-color: #262626;
+  color: #fff;
+  /* .container-fluid{
+        .row{
+            .col-4{
+                .link-arriba{
+                    background-color: $color-letra;
+                    width: 90%;
+                    text-align: center;
+                    font-weight: bold;
+                    border-radius: 20px;
 
                     a{
-                        text-decoration: none;
-                    }   
-                }
-            }
-        }
-        .features{
-            line-height: 10px;
-            h2{
-
-            }
-            .box{
-                list-style: none;
-                padding-left: 0;
-                li{
-                    a{
+                        color: $footer-color;
                         text-decoration: none;
                     }
+                }  
+            }
+            .social-network{
+                p{
+                color: $footer-color;
                 }
-            }
-        }
-        li{
-            line-height: 10px;
-            h2{
-
-            }
-            .box{
-                list-style: none;
-                padding-left: 0;
-                li{
-                    a{
-                        text-decoration: none;
+                a{
+                    i{
+                        
+                        font-size: 20px;
+                        text-align: center;
                     }
                 }
 
             }
-        }
-    }
-    .b-footer{
-        p{
+            .developer{
+
+                color: $footer-color;
+                a{
+                    text-decoration: none;
+                    color: $color-letra;
+                }
+            }
 
         }
     } */ }
-  footer .container-fluid .row .col-4 .link-arriba {
-    background-color: #FFCE45;
-    width: 90%;
-    text-align: center;
-    font-weight: bold;
-    border-radius: 20px; }
-    footer .container-fluid .row .col-4 .link-arriba a {
-      color: #863404;
-      text-decoration: none; }
-  footer .container-fluid .row .social-network p {
-    color: #863404; }
-  footer .container-fluid .row .social-network a i {
-    font-size: 20px;
-    text-align: center; }
-  footer .container-fluid .row .developer {
-    color: #863404; }
-    footer .container-fluid .row .developer a {
-      text-decoration: none;
-      color: #FFCE45; }
+  footer .container-fluid .row .explorer .box li a {
+    text-decoration: none; }
+  footer .container-fluid .row .social-network a {
+    padding: 10px; }
+    footer .container-fluid .row .social-network a i {
+      font-size: 30px; }
+  footer .container-fluid .row .legal .box li a {
+    text-decoration: none; }
 
 /* ---------------- INDEX ------------------------------ */
 main .primer-nota .fila {
@@ -171,8 +124,6 @@ main .primer-nota .fila {
       padding: 0; }
 
 main .requisitos .fila {
-  /* display: grid;
-            grid-template-columns: auto; */
   display: flex;
   flex-direction: column-reverse;
   padding: 10px; }

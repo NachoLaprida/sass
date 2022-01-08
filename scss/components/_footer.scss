@@ -2,17 +2,9 @@
 
 
 footer{
-    background-color: $bg-header;
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 50px;
-    color:#fff;
-    background: #262626; */
-
-
-
-    .container-fluid{
+    background-color: #262626;
+    color: #fff;
+    /* .container-fluid{
         .row{
             .col-4{
                 .link-arriba{
@@ -51,76 +43,53 @@ footer{
             }
 
         }
-    }
-    /* .l-footer{
-        margin-right: 10px;
-        margin-bottom: 10px;
-        h1{
-
-            img{
-            }
-        }        
-        p{
-
-        }
-    }
-    .r-footer{
-        display: flex;
-        flex-flow: row wrap;
-        list-style: none;
-        padding-left: 0;
-        li{
-        line-height: 10px;
-            h2{
-                font-weight: 900;
-                font-size: 16px;
-            }
-            .box{
-                list-style: none;
-                padding-left: 0;
-                li{
-
-                    a{
-                        text-decoration: none;
-                    }   
-                }
-            }
-        }
-        .features{
-            line-height: 10px;
-            h2{
-
-            }
-            .box{
-                list-style: none;
-                padding-left: 0;
-                li{
-                    a{
-                        text-decoration: none;
-                    }
-                }
-            }
-        }
-        li{
-            line-height: 10px;
-            h2{
-
-            }
-            .box{
-                list-style: none;
-                padding-left: 0;
-                li{
-                    a{
-                        text-decoration: none;
-                    }
-                }
-
-            }
-        }
-    }
-    .b-footer{
-        p{
-
-        }
     } */
-}
+    .container-fluid{
+        .row{
+            .develope{
+                h2{
+
+                }
+                p{
+
+                }
+            }
+            .explorer{
+                h2{
+
+                }
+                .box{
+                    li{
+                        
+                        a{
+                            text-decoration: none;
+                        }
+                    }
+                }                
+            }
+            .social-network{
+                p{
+                    
+                }
+                a{
+                    padding: 10px;
+                    i{
+                        font-size: 30px;
+                    }
+                }
+            }
+            .legal{
+                h2{
+                }
+                .box{
+                    li{
+                        a{
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}   
