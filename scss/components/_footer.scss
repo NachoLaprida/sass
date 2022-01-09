@@ -48,26 +48,32 @@ footer{
         .row{
             .develope{
                 h2{
-
+                    font-size: 24px;
                 }
                 p{
-
+                    color: #bdb4b4;
                 }
             }
             .explorer{
                 h2{
-
+                    font-size: 24px;
                 }
                 .box{
-                    li{
-                        
+                    padding-left: 0;
+                    li{                            }
                         a{
                             text-decoration: none;
+                            color: #bdb4b4;
+                            &:hover{
+                                text-decoration: underline;
                         }
                     }
                 }                
             }
             .social-network{
+                h2{
+                    font-size: 24px;
+                }
                 p{
                     
                 }
@@ -79,12 +85,24 @@ footer{
                 }
             }
             .legal{
+                display: flex;
+                flex-direction: column;
+                align-content: center ;
                 h2{
+                    font-size: 24px;
+                    color: #fff;
                 }
                 .box{
+                    padding-left: 0;
+                    
                     li{
+
                         a{
                             text-decoration: none;
+                            color: #bdb4b4;
+                            &:hover{
+                                text-decoration: underline;
+                        }
                         }
                     }
                 }

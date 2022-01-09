@@ -1,6 +1,11 @@
 /* ---------------- INDEX ------------------------------ */
 
 main{
+    h1{
+        font-size: 60px;
+        -webkit-text-fill-color: #fff;
+        -webkit-text-stroke: black 2px; 
+    }
     .primer-nota{
         .fila{
             display: grid;

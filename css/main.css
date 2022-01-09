@@ -96,16 +96,46 @@ footer {
 
         }
     } */ }
-  footer .container-fluid .row .explorer .box li a {
-    text-decoration: none; }
+  footer .container-fluid .row .develope h2 {
+    font-size: 24px; }
+  footer .container-fluid .row .develope p {
+    color: #bdb4b4; }
+  footer .container-fluid .row .explorer h2 {
+    font-size: 24px; }
+  footer .container-fluid .row .explorer .box {
+    padding-left: 0; }
+    footer .container-fluid .row .explorer .box a {
+      text-decoration: none;
+      color: #bdb4b4; }
+      footer .container-fluid .row .explorer .box a:hover {
+        text-decoration: underline; }
+  footer .container-fluid .row .social-network h2 {
+    font-size: 24px; }
   footer .container-fluid .row .social-network a {
     padding: 10px; }
     footer .container-fluid .row .social-network a i {
       font-size: 30px; }
-  footer .container-fluid .row .legal .box li a {
-    text-decoration: none; }
+  footer .container-fluid .row .legal {
+    display: flex;
+    flex-direction: column;
+    align-content: center; }
+    footer .container-fluid .row .legal h2 {
+      font-size: 24px;
+      color: #fff; }
+    footer .container-fluid .row .legal .box {
+      padding-left: 0; }
+      footer .container-fluid .row .legal .box li a {
+        text-decoration: none;
+        color: #bdb4b4; }
+        footer .container-fluid .row .legal .box li a:hover {
+          text-decoration: underline; }
 
 /* ---------------- INDEX ------------------------------ */
+main h1 {
+  font-size: 60px;
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke: black 2px; }
+
 main .primer-nota .fila {
   display: grid;
   grid-template-columns: auto;
@@ -154,6 +184,11 @@ main .carousel-t .container .carousel .carousel-inner .carousel-item iframe {
   margin: 10px; }
 
 /* ------- CIVILIZACIONES -------- */
+main h1 {
+  font-size: 60px;
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke: black 2px; }
+
 main .contenedor-civi {
   display: none; }
   main .contenedor-civi .container-fluid .row .civilizacion .civi-img {
@@ -162,6 +197,11 @@ main .contenedor-civi {
     transform: rotate(360deg); }
 
 /* --------------- GALERIA ------------------- */
+main h1 {
+  font-size: 60px;
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke: black 2px; }
+
 main .gallery .contenedor-img {
   display: grid;
   grid-template-columns: 320px;
@@ -176,12 +216,12 @@ main .gallery .contenedor-img {
       width: 100%; }
 
 /* ---------------- PRO PLAYER ----------------------------- */
-main .pro-player .qwe {
+main .qwe {
   background-image: url(../../../imagenes/esports.jpg);
   background-size: cover;
   background-position: center;
   height: 200px; }
-  main .pro-player .qwe h1 {
+  main .qwe h1 {
     font-size: 60px;
     -webkit-text-fill-color: #fff;
     -webkit-text-stroke: black 2px; }
@@ -284,6 +324,11 @@ main .torneos .prueba {
           font-size: 14px; }
 
 /* ------- CONTACTO --------------------- */
+main h1 {
+  font-size: 60px;
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke: black 2px; }
+
 main .contact .container {
   background: linear-gradient(#E8D0B3, #C36839); }
   main .contact .container .row .contact-img .contact-img-content .imagen-contacto {

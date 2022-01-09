@@ -1,18 +1,18 @@
 /* ---------------- PRO PLAYER ----------------------------- */
 
 main{
-    .pro-player{
-        .qwe{
-            background-image: url(../../../imagenes/esports.jpg);
-            background-size: cover;
-            background-position: center;
-            height: 200px;
-            h1{
-                font-size: 60px;
-                -webkit-text-fill-color: #fff;
-                -webkit-text-stroke: black 2px;      
-            }
+    .qwe{
+        background-image: url(../../../imagenes/esports.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        h1{
+            font-size: 60px;
+            -webkit-text-fill-color: #fff;
+            -webkit-text-stroke: black 2px;      
         }
+    }
+    .pro-player{
         .container{
             .row{
                 .carta{
