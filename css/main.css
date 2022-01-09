@@ -170,14 +170,13 @@ main .requisitos .fila {
     main .requisitos .fila .columna-text h2 {
       font-size: 20px;
       padding: 5px 40px;
-      text-decoration: underline; }
+      text-decoration: underline;
+      text-align: center; }
     main .requisitos .fila .columna-text h3 {
       font-size: 16px;
-      text-align: center;
       padding: 5px; }
     main .requisitos .fila .columna-text li {
-      font-size: 14px;
-      text-align: center; }
+      font-size: 14px; }
 
 main .carousel-t .container .carousel .carousel-inner .carousel-item iframe {
   height: 300px;
@@ -330,7 +329,7 @@ main h1 {
   -webkit-text-stroke: black 2px; }
 
 main .contact .container {
-  background: linear-gradient(#E8D0B3, #C36839); }
+  background: linear-gradient(#FFCE45, #f7eccd); }
   main .contact .container .row .contact-img .contact-img-content .imagen-contacto {
     height: 50px;
     width: 50px; }
