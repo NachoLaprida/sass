@@ -200,6 +200,9 @@ main .titulo-civ {
     -webkit-text-fill-color: #fff;
     -webkit-text-stroke: black 2px; }
 
+main .prueba .accordion .accordion-item .accordion-header .accordion-button {
+  color: black; }
+
 main .contenedor-civi {
   display: none; }
   main .contenedor-civi .container-fluid .row .civilizacion .civi-img {
@@ -242,6 +245,9 @@ main .titulo-proPlayer {
     font-size: 60px;
     -webkit-text-fill-color: #fff;
     -webkit-text-stroke: black 2px; }
+
+main .prueba .accordion .accordion-item .accordion-header .accordion-button {
+  color: black; }
 
 main .pro-player .container .row .carta {
   padding: 10px; }
