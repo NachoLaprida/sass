@@ -1,16 +1,23 @@
 /* ------- CIVILIZACIONES -------- */
 
 main{
-    h1{
-        font-size: 60px;
-        -webkit-text-fill-color: #fff;
-        -webkit-text-stroke: black 2px; 
+    .titulo-civ{
+        background-image: url(../../imagenes/civiliactiones.png);
+        background-position: center;
+        height: 200px;
+        background-size: cover;
+        h1{
+            font-size: 60px;
+            -webkit-text-fill-color: #fff;
+            -webkit-text-stroke: black 2px; 
+        }
     }
     .prueba{
-        
+
     }
     .contenedor-civi{
         display: none;
+        
         .container-fluid{
             .row{
                 .civilizacion{

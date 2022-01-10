@@ -1,10 +1,16 @@
 /* ------- CONTACTO --------------------- */
 
 main{
-    h1{
-        font-size: 60px;
-        -webkit-text-fill-color: #fff;
-        -webkit-text-stroke: black 2px; 
+    .titulo-contacto{
+        background-image: url(../../imagenes/contacto.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        h1{
+            font-size: 60px;
+            -webkit-text-fill-color: #fff;
+            -webkit-text-stroke: black 2px; 
+        }
     }
     .contact{
         
@@ -15,9 +21,23 @@ main{
             background: linear-gradient($color-letra, #f7eccd);
             .row{
                 
-                .col{
-                    p{
-                        
+                .gif{
+                    height: 550px;
+                    
+
+                    .text-contacto{
+                        p{
+                            font-size: 16px;
+                            
+                            
+                        }
+                    }
+                    .fondo{
+                        background: url(https://c.tenor.com/5eEHdZWyTfwAAAAd/ddac_i.gif);
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        height: 400px;
                     }
                 }
                 .contact-img{

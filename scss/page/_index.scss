@@ -1,10 +1,16 @@
 /* ---------------- INDEX ------------------------------ */
 
 main{
-    h1{
-        font-size: 60px;
-        -webkit-text-fill-color: #fff;
-        -webkit-text-stroke: black 2px; 
+    .titulo-index{
+        background-image: url(../../imagenes/index.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        h1{
+            font-size: 60px;
+            -webkit-text-fill-color: #fff;
+            -webkit-text-stroke: black 2px; 
+        }
     }
     .primer-nota{
         .fila{
@@ -22,6 +28,7 @@ main{
             .columna-img{
                 justify-self: center;
                 padding: 5px;
+                box-shadow: 0px 15px 15px rgba(0, 0, 0, .5);
                 .contenedor-img{
                     
                     img{
@@ -41,11 +48,11 @@ main{
             padding: 10px;
             .columna-img{
                 justify-self: center;
-                text-align: center;
-                
-                
+                box-shadow: 0px 15px 15px rgba(0, 0, 0, .5);
                 padding: 5px;
+                text-align: center;
                 .contenedor-img{
+                    
                     img{
                         @include size (240px, 300px, 0)
                     }

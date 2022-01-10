@@ -1,8 +1,8 @@
 /* ---------------- PRO PLAYER ----------------------------- */
 
 main{
-    .qwe{
-        background-image: url(../../../imagenes/esports.jpg);
+    .titulo-proPlayer{
+        background-image: url(../../imagenes/proplayer.jpg);
         background-size: cover;
         background-position: center;
         height: 200px;
@@ -55,7 +55,8 @@ main{
     }
     .torneos{
         h2{
-            
+            font-weight: bold;
+            text-decoration: underline;
         }
         .prueba{
             display: flex;

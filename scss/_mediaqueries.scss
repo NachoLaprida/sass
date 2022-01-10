@@ -233,8 +233,7 @@
                 .columna-img{
                     .contenedor-img{
                         img{
-                            height: 370px;
-                            width: 450px;
+                            @include size (370px, 450px, 0)
                         }
                     }
                 }

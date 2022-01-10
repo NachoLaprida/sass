@@ -131,10 +131,15 @@ footer {
           text-decoration: underline; }
 
 /* ---------------- INDEX ------------------------------ */
-main h1 {
-  font-size: 60px;
-  -webkit-text-fill-color: #fff;
-  -webkit-text-stroke: black 2px; }
+main .titulo-index {
+  background-image: url(../../imagenes/index.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px; }
+  main .titulo-index h1 {
+    font-size: 60px;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke: black 2px; }
 
 main .primer-nota .fila {
   display: grid;
@@ -147,7 +152,8 @@ main .primer-nota .fila {
       font-size: 14px; }
   main .primer-nota .fila .columna-img {
     justify-self: center;
-    padding: 5px; }
+    padding: 5px;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.5); }
     main .primer-nota .fila .columna-img .contenedor-img img {
       height: 240px;
       width: 300px;
@@ -159,8 +165,9 @@ main .requisitos .fila {
   padding: 10px; }
   main .requisitos .fila .columna-img {
     justify-self: center;
-    text-align: center;
-    padding: 5px; }
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    text-align: center; }
     main .requisitos .fila .columna-img .contenedor-img img {
       height: 240px;
       width: 300px;
@@ -183,10 +190,15 @@ main .carousel-t .container .carousel .carousel-inner .carousel-item iframe {
   margin: 10px; }
 
 /* ------- CIVILIZACIONES -------- */
-main h1 {
-  font-size: 60px;
-  -webkit-text-fill-color: #fff;
-  -webkit-text-stroke: black 2px; }
+main .titulo-civ {
+  background-image: url(../../imagenes/civiliactiones.png);
+  background-position: center;
+  height: 200px;
+  background-size: cover; }
+  main .titulo-civ h1 {
+    font-size: 60px;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke: black 2px; }
 
 main .contenedor-civi {
   display: none; }
@@ -196,10 +208,16 @@ main .contenedor-civi {
     transform: rotate(360deg); }
 
 /* --------------- GALERIA ------------------- */
-main h1 {
-  font-size: 60px;
-  -webkit-text-fill-color: #fff;
-  -webkit-text-stroke: black 2px; }
+main .titulo-galeria {
+  background-image: url(../../imagenes/galeria.jpg);
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  height: 200px; }
+  main .titulo-galeria h1 {
+    font-size: 60px;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke: black 2px; }
 
 main .gallery .contenedor-img {
   display: grid;
@@ -215,12 +233,12 @@ main .gallery .contenedor-img {
       width: 100%; }
 
 /* ---------------- PRO PLAYER ----------------------------- */
-main .qwe {
-  background-image: url(../../../imagenes/esports.jpg);
+main .titulo-proPlayer {
+  background-image: url(../../imagenes/proplayer.jpg);
   background-size: cover;
   background-position: center;
   height: 200px; }
-  main .qwe h1 {
+  main .titulo-proPlayer h1 {
     font-size: 60px;
     -webkit-text-fill-color: #fff;
     -webkit-text-stroke: black 2px; }
@@ -244,6 +262,10 @@ main .pro-player .container .row .carta {
       main .pro-player .container .row .carta .card .card-body .socials a i {
         padding: 12px 0;
         font-size: 20px; }
+
+main .torneos h2 {
+  font-weight: bold;
+  text-decoration: underline; }
 
 main .torneos .prueba {
   display: flex;
@@ -323,13 +345,28 @@ main .torneos .prueba {
           font-size: 14px; }
 
 /* ------- CONTACTO --------------------- */
-main h1 {
-  font-size: 60px;
-  -webkit-text-fill-color: #fff;
-  -webkit-text-stroke: black 2px; }
+main .titulo-contacto {
+  background-image: url(../../imagenes/contacto.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px; }
+  main .titulo-contacto h1 {
+    font-size: 60px;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke: black 2px; }
 
 main .contact .container {
   background: linear-gradient(#FFCE45, #f7eccd); }
+  main .contact .container .row .gif {
+    height: 550px; }
+    main .contact .container .row .gif .text-contacto p {
+      font-size: 16px; }
+    main .contact .container .row .gif .fondo {
+      background: url(https://c.tenor.com/5eEHdZWyTfwAAAAd/ddac_i.gif);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+      height: 400px; }
   main .contact .container .row .contact-img .contact-img-content .imagen-contacto {
     height: 50px;
     width: 50px; }
@@ -448,7 +485,8 @@ main .contact .container {
     grid-template-columns: repeat(2, 1fr); }
     main .requisitos .fila .columna-img .contenedor-img img {
       height: 370px;
-      width: 450px; }
+      width: 450px;
+      padding: 0; }
     main .requisitos .fila .columna-text {
       text-align: left;
       align-self: center; }
