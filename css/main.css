@@ -55,47 +55,7 @@ header .navbar {
 /* ---------------  FOOTER ---------------------- */
 footer {
   background-color: #262626;
-  color: #fff;
-  /* .container-fluid{
-        .row{
-            .col-4{
-                .link-arriba{
-                    background-color: $color-letra;
-                    width: 90%;
-                    text-align: center;
-                    font-weight: bold;
-                    border-radius: 20px;
-
-                    a{
-                        color: $footer-color;
-                        text-decoration: none;
-                    }
-                }  
-            }
-            .social-network{
-                p{
-                color: $footer-color;
-                }
-                a{
-                    i{
-                        
-                        font-size: 20px;
-                        text-align: center;
-                    }
-                }
-
-            }
-            .developer{
-
-                color: $footer-color;
-                a{
-                    text-decoration: none;
-                    color: $color-letra;
-                }
-            }
-
-        }
-    } */ }
+  color: #fff; }
   footer .container-fluid .row .develope h2 {
     font-size: 24px; }
   footer .container-fluid .row .develope p {
