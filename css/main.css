@@ -246,9 +246,6 @@ main .titulo-proPlayer {
     -webkit-text-fill-color: #fff;
     -webkit-text-stroke: black 2px; }
 
-main .prueba .accordion .accordion-item .accordion-header .accordion-button {
-  color: black; }
-
 main .pro-player .container .row .carta {
   padding: 10px; }
   main .pro-player .container .row .carta .card img {
